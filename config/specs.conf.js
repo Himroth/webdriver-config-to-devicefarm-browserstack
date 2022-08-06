@@ -1,14 +1,13 @@
 require('dotenv').config()
 
-let specsConf = {
+let specsConf = process.env.PLATFORM == 'android' ? {   //se for android testa login
     specs: [
-        './test/specs/**/*.spec.js'
-    ],
-    suites: {
-        products: [
-            './test/specs/cart.spec.js'
-        ]
-    },
+        './test/specs/login.spec.js',
+    ]
+} : {       //se não android teste products e search q são spec de iOS
+    specs: [
+        './test/specs/products.spec.js',
+        './test/specs/search.spec.js'    
+    ]
 }
-
 module.exports = { specsConf }

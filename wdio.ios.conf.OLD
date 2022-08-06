@@ -1,0 +1,16 @@
+const allure = require('allure-commandline')
+const video = require('wdio-video-reporter');
+
+exports.config = {
+    //local
+    hostname: 'localhost',
+    port: 4723,
+    services: ['appium'],
+
+    //browserstack
+    services: ['browserstack'],
+    user: "heltonimroth_HECh71",
+    key: "crrgccNDteA7LHxQ87rb"
+
+    //saucelabs
+}
