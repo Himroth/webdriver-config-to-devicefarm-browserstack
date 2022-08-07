@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0-1",
-    "children" : [ {
-      "name" : "should search by Ingrid",
-      "uid" : "4c072d870585c9cb",
-      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
-      "status" : "passed",
-      "time" : {
-        "start" : 1659879579614,
-        "stop" : 1659879584680,
-        "duration" : 5066
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "iphone-14.0" ]
-    } ],
-    "uid" : "27fa874cadc1574e37a07abb440963bd"
-  }, {
     "name" : "0-0",
     "children" : [ {
       "name" : "shoud list products",
-      "uid" : "bfd9756efd8df0ed",
+      "uid" : "b4673ebd58f88f52",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1659879553594,
-        "stop" : 1659879556797,
-        "duration" : 3203
+        "start" : 1659879572076,
+        "stop" : 1659879574654,
+        "duration" : 2578
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "iphone-14.0" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "should search by Ingrid",
+      "uid" : "e17bfc08828187dc",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659879600248,
+        "stop" : 1659879605333,
+        "duration" : 5085
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "iphone-14.0" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
   } ],
   "name" : "timeline"
 }

@@ -1,12 +1,12 @@
 {
-  "uid" : "bfd9756efd8df0ed",
-  "name" : "shoud list products",
-  "fullName" : "Product List.shoud list products",
-  "historyId" : "c7101fa96238f514e0247c8b632a7178",
+  "uid" : "e17bfc08828187dc",
+  "name" : "should search by Ingrid",
+  "fullName" : "Search products.should search by Ingrid",
+  "historyId" : "69b3b026b1c18de9b07b37a8b1e8e39a",
   "time" : {
-    "start" : 1659879553594,
-    "stop" : 1659879556797,
-    "duration" : 3203
+    "start" : 1659879600248,
+    "stop" : 1659879605333,
+    "duration" : 5085
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -18,11 +18,11 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "fe955ddb31f6f44b",
+      "uid" : "4b142b9bd24143d6",
       "name" : "Execution video",
-      "source" : "fe955ddb31f6f44b.mp4",
+      "source" : "4b142b9bd24143d6.mp4",
       "type" : "video/mp4",
-      "size" : 52395
+      "size" : 196664
     } ],
     "parameters" : [ ],
     "stepsCount" : 0,
@@ -39,19 +39,19 @@
     "value" : "javascript"
   }, {
     "name" : "thread",
-    "value" : "0-0"
+    "value" : "0-1"
   }, {
     "name" : "suite",
-    "value" : "Product List"
+    "value" : "Search products"
   }, {
     "name" : "testClass",
-    "value" : "Product List"
+    "value" : "Search products"
   }, {
     "name" : "testMethod",
-    "value" : "shoud list products"
+    "value" : "should search by Ingrid"
   }, {
     "name" : "package",
-    "value" : "Product List"
+    "value" : "Search products"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -69,6 +69,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "bfd9756efd8df0ed.json",
+  "source" : "e17bfc08828187dc.json",
   "parameterValues" : [ "iphone-14.0" ]
 }
