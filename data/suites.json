@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "Product List",
+    "children" : [ {
+      "name" : "shoud list products",
+      "uid" : "bfd9756efd8df0ed",
+      "parentUid" : "55fc2fc815fda60f9e7e4acab2e71765",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659879553594,
+        "stop" : 1659879556797,
+        "duration" : 3203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "iphone-14.0" ]
+    } ],
+    "uid" : "55fc2fc815fda60f9e7e4acab2e71765"
+  }, {
+    "name" : "Search products",
+    "children" : [ {
+      "name" : "should search by Ingrid",
+      "uid" : "4c072d870585c9cb",
+      "parentUid" : "bbfce99433734e68880e29758f70fa2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1659879579614,
+        "stop" : 1659879584680,
+        "duration" : 5066
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "iphone-14.0" ]
+    } ],
+    "uid" : "bbfce99433734e68880e29758f70fa2e"
+  } ],
+  "name" : "suites"
+}

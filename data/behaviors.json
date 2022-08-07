@@ -1,0 +1,31 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "shoud list products",
+    "uid" : "bfd9756efd8df0ed",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659879553594,
+      "stop" : 1659879556797,
+      "duration" : 3203
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "iphone-14.0" ]
+  }, {
+    "name" : "should search by Ingrid",
+    "uid" : "4c072d870585c9cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1659879579614,
+      "stop" : 1659879584680,
+      "duration" : 5066
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "iphone-14.0" ]
+  } ],
+  "name" : "behaviors"
+}

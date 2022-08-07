@@ -1,0 +1,21 @@
+[ {
+  "uid" : "bfd9756efd8df0ed",
+  "name" : "shoud list products",
+  "time" : {
+    "start" : 1659879553594,
+    "stop" : 1659879556797,
+    "duration" : 3203
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c072d870585c9cb",
+  "name" : "should search by Ingrid",
+  "time" : {
+    "start" : 1659879579614,
+    "stop" : 1659879584680,
+    "duration" : 5066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
