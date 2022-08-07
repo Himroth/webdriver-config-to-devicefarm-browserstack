@@ -4,7 +4,7 @@ const allure = require('allure-commandline')
 const video = require('wdio-video-reporter');
 //let teste = true == true ? true : true //Expressão ternária, primeira as validações dos trues, depois as ações, se true true se true true usada abaixo nas configs do report
 
-let reporterConf = process.env.REPORT == true ? {       //expressão ternária se env for true faz o report e o video, se não não faz nada
+let reporterConf = process.env.REPORT == 'true' ? {       //expressão ternária se env for true faz o report e o video, se não não faz nada
     reporters: ['spec',
     ['allure', {
         outputDir: 'allure-results',

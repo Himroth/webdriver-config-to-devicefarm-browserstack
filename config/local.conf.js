@@ -2,6 +2,7 @@ require('dotenv').config()
 
 const { join } = require('path')
 const { generalConf } = require('./general.conf')
+const { reporterConf } = require('./reports.conf')
 
 let capabilities = process.env.PLATFORM === 'android' ? {
     capabilities: [{
@@ -17,7 +18,7 @@ let capabilities = process.env.PLATFORM === 'android' ? {
     capabilities: [{
         platformName: "iOS",
         deviceName: "iPhone 13",
-        platformVersion: "15.2",
+        platformVersion: "15.5",
         orientation: "PORTRAIT",
         automationName: "XCUITest",
         app: join(process.cwd(), './app/ios/loja-ebac.app'),
@@ -28,6 +29,7 @@ let capabilities = process.env.PLATFORM === 'android' ? {
 let localConf = {
     ...generalConf,
     ...capabilities,
+    ...reporterConf,
     hostname: 'localhost',
     port: 4723,
     services: ['appium']
